@@ -95,7 +95,7 @@ export const ContactSection = () => {
                 Let's build something amazing together!
               </p>
               <a
-                href="/Adarsh_Cv.pdf"
+                href="/adarsh-android-portfolio/resume/Adarsh_Cv.pdf"
                 download="Adarsh_Cv.pdf"
                 className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground text-sm font-medium rounded-lg hover:bg-primary/90 transition-colors duration-200 mb-4"
               >
