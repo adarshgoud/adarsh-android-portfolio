@@ -85,7 +85,7 @@ export const ProjectsSection = () => {
                   {/* Image */}
                   <div className="relative h-64 lg:h-auto bg-gradient-to-br from-primary/10 via-accent to-secondary overflow-hidden">
                     <div className="absolute inset-0 flex items-center justify-center">
-                      <div className="w-[450px] h-80 bg-card rounded-2xl shadow-xl transform rotate-6 group-hover:rotate-3 transition-transform duration-500">
+                      <div className="w-full max-w-xs h-80 bg-card rounded-2xl shadow-xl transform group-hover:scale-105 transition-transform duration-500">
                         <div className="w-full h-full rounded-2xl p-6 overflow-hidden relative">
                           {project.images.map((image, index) => (
                             <img 
