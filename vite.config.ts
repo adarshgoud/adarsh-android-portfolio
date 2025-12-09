@@ -16,4 +16,19 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  build: {
+    rollupOptions: {
+      output: {
+        assetFileNames: (assetInfo) => {
+          if (!assetInfo.name) return 'assets/[name]-[hash][extname]';
+          
+          let extType = assetInfo.name.split('.').at(1);
+          if (extType && /png|jpe?g|svg|gif|tiff|bmp|webp/i.test(extType)) {
+            extType = 'images';
+          }
+          return `assets/${extType}/[name]-[hash][extname]`;
+        },
+      },
+    },
+  },
 }));
