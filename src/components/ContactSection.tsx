@@ -1,6 +1,6 @@
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
-import { Mail, Linkedin, Github, CheckCircle } from "lucide-react";
+import { Mail, Linkedin, Github, CheckCircle, Download } from "lucide-react";
 
 export const ContactSection = () => {
   const ref = useRef(null);
@@ -17,13 +17,13 @@ export const ContactSection = () => {
       icon: Linkedin,
       label: "LinkedIn",
       href: "https://linkedin.com/in/adarsh-g-a0040b273",
-      text: "linkedin.com/in/adarsh",
+      text: "linkedin.com/in/adarsh-g-a0040b273",
     },
     {
       icon: Github,
       label: "GitHub",
       href: "https://github.com/adarshgoud",
-      text: "github.com/adarsh",
+      text: "github.com/adarshgoud",
     },
   ];
 
@@ -94,6 +94,14 @@ export const ContactSection = () => {
                 I'm currently open to new opportunities and exciting projects.
                 Let's build something amazing together!
               </p>
+              <a
+                href="/resume/Adarsh_Cv.pdf"
+                download="Adarsh_Cv.pdf"
+                className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-primary-foreground text-sm font-medium rounded-lg hover:bg-primary/90 transition-colors duration-200 mb-4"
+              >
+                <Download className="w-4 h-4" />
+                Download My Resume
+              </a>
               <div className="flex items-center gap-2 text-sm text-primary font-medium">
                 <CheckCircle className="w-4 h-4" />
                 Quick response guaranteed

@@ -66,7 +66,8 @@ export const HeroSection = () => {
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <motion.a
-                href="/resume.pdf"
+                href="/resume/Adarsh_Cv.pdf"
+                download="Adarsh_Cv.pdf"
                 whileHover={{ scale: 1.02 }}
                 whileTap={{ scale: 0.98 }}
                 className="inline-flex items-center justify-center gap-2 px-7 py-3.5 bg-primary text-primary-foreground rounded-full font-medium hover:bg-primary/90 transition-all duration-200 shadow-soft hover:shadow-glow"
