@@ -59,18 +59,6 @@ export const AboutSection = () => {
                 <span className="font-semibold text-primary">3.8+ years</span> of
                 hands-on experience building modern, scalable mobile applications.
               </p>
-<<<<<<< HEAD
-              <p className="text-muted-foreground leading-relaxed text-justify">
-=======
-              <p className="text-muted-foreground leading-relaxed">
->>>>>>> 5719d2eef33247b19dda65e36d2a5c9cab0f3252
-                My expertise lies in crafting high-performance Android apps using
-                Java and Kotlin, with a strong foundation in MVVM architecture,
-                Jetpack components, and Clean Architecture principles. I'm
-                dedicated to writing clean, maintainable code that delivers
-                exceptional user experiences.
-              </p>
-<<<<<<< HEAD
               <p className="text-muted-foreground leading-relaxed text-justify">
                 Experienced with {" "}
                  <span className="font-semibold text-primary">3.8+ years in building high-impact 7+ mobile apps</span> and 4 years of
@@ -79,14 +67,13 @@ export const AboutSection = () => {
                 data solutions. Currently pursuing  {" "} <span className="font-semibold text-primary"> Master’s
                 in Media Informatics in University Of
                 Vienna, Austria.</span>
-=======
-              <p className="text-muted-foreground leading-relaxed">
-                I thrive in Agile/Scrum environments, collaborating closely with
-                cross-functional teams to deliver features on time while
-                maintaining code quality. My focus on performance optimization and
-                stability has helped launch apps that serve thousands of users
-                daily.
->>>>>>> 5719d2eef33247b19dda65e36d2a5c9cab0f3252
+              </p>
+              <p className="text-muted-foreground leading-relaxed text-justify">
+                My expertise lies in crafting high-performance Android apps using
+                Java and Kotlin, with a strong foundation in MVVM architecture,
+                Jetpack components, and Clean Architecture principles. I'm
+                dedicated to writing clean, maintainable code that delivers
+                exceptional user experiences.
               </p>
               <div className="flex items-center gap-4 pt-4">
                 <div className="w-12 h-1 bg-primary rounded-full" />

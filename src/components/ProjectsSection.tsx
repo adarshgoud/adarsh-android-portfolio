@@ -1,15 +1,10 @@
 import { motion, useInView } from "framer-motion";
-<<<<<<< HEAD
 import { useRef, useState, useEffect } from "react";
-=======
-import { useRef } from "react";
->>>>>>> 5719d2eef33247b19dda65e36d2a5c9cab0f3252
 import { ExternalLink, Github, ArrowRight, Clock } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const projects = [
   {
-<<<<<<< HEAD
     id: "nurse-management",
     title: "Nurse Asst App",
     description:
@@ -27,47 +22,23 @@ const projects = [
       "/screenshots/screen_03.jpeg",
       "/screenshots/screen_04.jpeg"
     ],
-=======
-    id: "task-management",
-    title: "Task Management App",
-    description:
-      "A comprehensive task management solution with real-time sync, smart notifications, and offline support for seamless productivity.",
-    features: [
-      "Create, assign & track tasks",
-      "Real-time sync with Firebase",
-      "Push notifications",
-      "Offline data with Room DB",
-    ],
-    techStack: ["Java", "Kotlin", "MVVM", "Firebase", "Room"],
-    image: "/placeholder-project-1.jpg",
->>>>>>> 5719d2eef33247b19dda65e36d2a5c9cab0f3252
   },
 ];
 
 const comingSoon = [
   {
-<<<<<<< HEAD
     title: "Vitals App (KMP)",
     description: "Full-featured Medical app",
   },
   {
     title: "Vechile Tracker",
     description: "User monitoring with GPS and activity tracking",
-=======
-    title: "E-Commerce App",
-    description: "Full-featured shopping app with payment integration",
-  },
-  {
-    title: "Fitness Tracker",
-    description: "Health monitoring with GPS and activity tracking",
->>>>>>> 5719d2eef33247b19dda65e36d2a5c9cab0f3252
   },
 ];
 
 export const ProjectsSection = () => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
-<<<<<<< HEAD
   
   // State for carousel
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -80,8 +51,6 @@ export const ProjectsSection = () => {
     
     return () => clearInterval(interval);
   }, []);
-=======
->>>>>>> 5719d2eef33247b19dda65e36d2a5c9cab0f3252
 
   return (
     <section id="projects" className="py-24 bg-background">
@@ -112,7 +81,6 @@ export const ProjectsSection = () => {
                 transition={{ duration: 0.6, delay: index * 0.2 }}
                 className="group bg-card rounded-3xl shadow-card overflow-hidden hover:shadow-hover transition-all duration-500"
               >
-<<<<<<< HEAD
                 <div className="grid lg:grid-cols-2 gap-8">
                   {/* Image */}
                   <div className="relative h-64 lg:h-auto bg-gradient-to-br from-primary/10 via-accent to-secondary overflow-hidden">
@@ -129,19 +97,6 @@ export const ProjectsSection = () => {
                               }`}
                             />
                           ))}
-=======
-                <div className="grid lg:grid-cols-2 gap-0">
-                  {/* Image */}
-                  <div className="relative h-64 lg:h-auto bg-gradient-to-br from-primary/10 via-accent to-secondary overflow-hidden">
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <div className="w-48 h-80 bg-card rounded-3xl shadow-xl transform rotate-6 group-hover:rotate-3 transition-transform duration-500">
-                        <div className="w-full h-full bg-gradient-to-b from-muted to-secondary rounded-3xl flex items-center justify-center">
-                          <div className="text-center p-4">
-                            <div className="w-12 h-12 mx-auto bg-primary/20 rounded-2xl mb-3" />
-                            <div className="w-24 h-2 bg-primary/20 rounded-full mx-auto mb-2" />
-                            <div className="w-20 h-2 bg-primary/10 rounded-full mx-auto" />
-                          </div>
->>>>>>> 5719d2eef33247b19dda65e36d2a5c9cab0f3252
                         </div>
                       </div>
                     </div>
@@ -179,10 +134,7 @@ export const ProjectsSection = () => {
                       ))}
                     </div>
 
-<<<<<<< HEAD
                     {/* Hidden buttons - Uncomment when ready to use
-=======
->>>>>>> 5719d2eef33247b19dda65e36d2a5c9cab0f3252
                     <div className="flex flex-wrap gap-3">
                       <Link
                         to={`/project/${project.id}`}
@@ -199,10 +151,7 @@ export const ProjectsSection = () => {
                         GitHub
                       </a>
                     </div>
-<<<<<<< HEAD
                     */}
-=======
->>>>>>> 5719d2eef33247b19dda65e36d2a5c9cab0f3252
                   </div>
                 </div>
               </motion.div>

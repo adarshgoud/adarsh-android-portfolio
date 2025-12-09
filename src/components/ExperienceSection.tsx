@@ -5,7 +5,6 @@ import { Briefcase, Calendar } from "lucide-react";
 const experiences = [
   {
     title: "Software Developer",
-<<<<<<< HEAD
     company: "CSS India Pvt Ltd - India",
     period: "Jan, 2022 - Aug, 2022",
     description:
@@ -19,22 +18,11 @@ const experiences = [
       "Applied Clean Architecture with Google Components.",
       "Worked in Agile Scrum with designers & QA to deliver on-time releases.",
 
-=======
-    company: "Tech Company",
-    period: "2022 - Present",
-    description:
-      "Leading Android development initiatives, implementing modern architecture patterns, and mentoring junior developers.",
-    achievements: [
-      "Architected and delivered 5+ production apps using MVVM and Clean Architecture",
-      "Reduced app crash rate by 60% through systematic debugging and optimization",
-      "Implemented CI/CD pipelines reducing deployment time by 40%",
->>>>>>> 5719d2eef33247b19dda65e36d2a5c9cab0f3252
     ],
     technologies: ["Kotlin", "Jetpack Compose", "Firebase", "GitLab CI"],
   },
   {
     title: "Android Developer",
-<<<<<<< HEAD
     company: "NSL GROUP Public Ltd - India",
     period: "Jan, 2021 - Dc, 2021",
     description:
@@ -45,22 +33,11 @@ const experiences = [
       "Implemented real-time inventory scheduling with automated reminders.",
       "Enabled graph visualizations (line, bar, pie, radar) via chart libraries.",
       "Analyzed delivery and usage data to optimize logistics and reduce idle time.",
-=======
-    company: "Mobile Solutions Inc.",
-    period: "2021 - 2022",
-    description:
-      "Developed and maintained multiple Android applications, focusing on performance optimization and user experience.",
-    achievements: [
-      "Built offline-first applications with Room DB and WorkManager",
-      "Integrated payment gateways and third-party APIs",
-      "Collaborated in Agile sprints delivering features on schedule",
->>>>>>> 5719d2eef33247b19dda65e36d2a5c9cab0f3252
     ],
     technologies: ["Java", "Kotlin", "Room", "Retrofit", "Maps SDK"],
   },
   {
     title: "Junior Android Developer",
-<<<<<<< HEAD
     company: "UMDAA Healthcare Pvt Ltd - India",
     period: "July, 2019 - Oct, 2020",
     description:
@@ -69,16 +46,6 @@ const experiences = [
       "Collaborated with a team of 10+ medical professionals to streamline clinical workflows, improving patient throughput by 15% while maintaining full regulatory compliance",
       "Supported diagnostic testing to enhance health outcomes.",
       "Applied strong communication, problem-solving, and adaptability in high-pressure healthcare settings."
-=======
-    company: "StartUp Labs",
-    period: "2020 - 2021",
-    description:
-      "Started professional journey building Android applications and learning best practices in mobile development.",
-    achievements: [
-      "Developed feature modules for existing applications",
-      "Learned and implemented MVVM architecture",
-      "Contributed to code reviews and technical documentation",
->>>>>>> 5719d2eef33247b19dda65e36d2a5c9cab0f3252
     ],
     technologies: ["Java", "XML", "Firebase", "Git"],
   },

@@ -11,11 +11,7 @@ const stats = [
   },
   {
     icon: Smartphone,
-<<<<<<< HEAD
     value: "7+",
-=======
-    value: "10+",
->>>>>>> 5719d2eef33247b19dda65e36d2a5c9cab0f3252
     label: "Android Apps",
     description: "Successfully Delivered",
   },

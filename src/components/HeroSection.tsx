@@ -1,9 +1,6 @@
 import { motion } from "framer-motion";
 import { Download, ArrowRight, Smartphone } from "lucide-react";
-<<<<<<< HEAD
 import AndroidIcon from "@/icons/android_icon.png";
-=======
->>>>>>> 5719d2eef33247b19dda65e36d2a5c9cab0f3252
 
 export const HeroSection = () => {
   return (
@@ -101,11 +98,7 @@ export const HeroSection = () => {
               <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full bg-gradient-to-br from-primary/10 to-accent/30 p-2 shadow-card">
                 <div className="w-full h-full rounded-full bg-secondary flex items-center justify-center overflow-hidden">
                   <div className="w-full h-full bg-gradient-to-br from-muted to-secondary flex items-center justify-center">
-<<<<<<< HEAD
                     <img src={AndroidIcon} alt="Android Icon" className="w-64 h-64 text-primary/40" />
-=======
-                    <Smartphone className="w-20 h-20 text-primary/40" />
->>>>>>> 5719d2eef33247b19dda65e36d2a5c9cab0f3252
                   </div>
                 </div>
               </div>
@@ -122,11 +115,7 @@ export const HeroSection = () => {
                 transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
                 className="absolute -bottom-2 -left-4 px-4 py-2 bg-card rounded-xl shadow-card"
               >
-<<<<<<< HEAD
                 <span className="text-sm font-semibold text-primary">7+ Apps</span>
-=======
-                <span className="text-sm font-semibold text-primary">10+ Apps</span>
->>>>>>> 5719d2eef33247b19dda65e36d2a5c9cab0f3252
               </motion.div>
             </div>
           </motion.div>
