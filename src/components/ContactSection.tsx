@@ -16,13 +16,13 @@ export const ContactSection = () => {
     {
       icon: Linkedin,
       label: "LinkedIn",
-      href: "https://linkedin.com/in/adarsh",
+      href: "https://linkedin.com/in/adarsh-g-a0040b273",
       text: "linkedin.com/in/adarsh",
     },
     {
       icon: Github,
       label: "GitHub",
-      href: "https://github.com/adarsh",
+      href: "https://github.com/adarshgoud",
       text: "github.com/adarsh",
     },
   ];
