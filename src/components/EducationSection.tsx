@@ -4,14 +4,14 @@ import { GraduationCap, Calendar } from "lucide-react";
 
 const education = [
   {
-    degree: "Bachelor of Technology in Computer Science",
-    institution: "JNTUH University",
-    period: "2015 - 2019"
+    degree: "Master's in Media Informatics",
+    institution: "University Of Vienna - Austria",
+    period: "2023 - Present"
   },
   {
-    degree: "Higher Secondary Education",
-    institution: "Sri Chaitanya Junior College",
-    period: "2013 - 2015"
+    degree: "Bachelor of Technology in Computer Science",
+    institution: "JNTUH University - India",
+    period: "2015 - 2018"
   }
 ];
 

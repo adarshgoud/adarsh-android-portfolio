@@ -6,7 +6,7 @@ const experiences = [
   {
     title: "Software Developer",
     company: "CSS India Pvt Ltd - India",
-    period: "Jan, 2022 - Aug, 2022",
+    period: "Jan, 2022 - Aug, 2022 (8 Months)",
     description:
       "Leading Android development initiatives, implementing modern architecture patterns, and mentoring junior developers.",
     achievements: [
@@ -24,7 +24,7 @@ const experiences = [
   {
     title: "Android Developer",
     company: "NSL GROUP Public Ltd - India",
-    period: "Jan, 2021 - Dc, 2021",
+    period: "Jan, 2021 - Dec, 2021 (1 Year)" ,
     description:
       "Developed and maintained multiple Android applications, focusing on performance optimization and user experience.",
     achievements: [
@@ -39,7 +39,7 @@ const experiences = [
   {
     title: "Junior Android Developer",
     company: "UMDAA Healthcare Pvt Ltd - India",
-    period: "July, 2019 - Oct, 2020",
+    period: "July, 2019 - Oct, 2020 (1.4 Year)",
     description:
       "Started professional journey building Android applications and learning best practices in mobile development.",
     achievements: [

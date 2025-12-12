@@ -66,7 +66,7 @@ export const HeroSection = () => {
             >
               <Smartphone className="w-4 h-4 text-primary" />
               <span className="text-sm font-medium text-accent-foreground">
-                Software Developer
+                Software Developer with 3.8+ Years of Experience
               </span>
             </motion.div>
 
@@ -80,7 +80,7 @@ export const HeroSection = () => {
             </p>
 
             <p className="text-base text-muted-foreground mb-8 max-w-lg mx-auto lg:mx-0">
-              Building modern, high-performance Android applications with clean architecture and exceptional user experiences.
+              Building modern, high-performance Software applications with clean architecture and exceptional user experiences.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">

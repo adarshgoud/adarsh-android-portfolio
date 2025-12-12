@@ -3,8 +3,46 @@ import { useRef } from "react";
 
 const skillCategories = [
   {
-    title: "Languages",
-    skills: ["Java", "Kotlin", "XML", "Python", "C#"],
+    title: "Programming Languages",
+    skills: [
+      "Java",
+      "Kotlin",
+      "Python",
+      "C#",
+      "XML"
+    ],
+  },
+  {
+    title: "Backend & Enterprise Development",
+    skills: [
+      "Java SE",
+      "Spring Boot",
+      "Spring MVC",
+      "REST API Development",
+      "Java Multithreading (Basic)",
+      "Server-side Backend Development (Basic)"
+    ],
+  },
+  {
+    title: "Databases",
+    skills: [
+      "SQL",
+      "PostgreSQL",
+      "Oracle DB (Basic)",
+      "MS SQL Server (Basic)",
+      "Relational Database Design",
+      "Transactions & Indexing",
+      "MongoDB Node "
+    ],
+  },
+  {
+    title: "Warehouse & Logistics Systems",
+    skills: [
+      "Warehouse Management Systems (WMS – Basic)",
+      "Intralogistics Processes",
+      "Material Flow Concepts",
+      "Customer-Specific Software Customization"
+    ],
   },
   {
     title: "Android Development",
@@ -18,31 +56,41 @@ const skillCategories = [
       "WorkManager",
       "Navigation Component",
       "Firebase",
-      "Crashlytics",
+      "Crashlytics"
     ],
   },
   {
-    title: "Architecture",
-    skills: ["MVVM", "MVP", "Clean Architecture"],
+    title: "Architecture & Design",
+    skills: [
+      "MVVM",
+      "MVP",
+      "Clean Architecture",
+      "Modular Software Design"
+    ],
   },
   {
     title: "Tools & DevOps",
-    skills: ["Git", "GitHub", "GitLab CI", "Postman", "Android Studio"],
-  },
-  {
-    title: "Backend (Basic)",
-    skills: ["Spring Boot", "MongoDB", "Node.js"],
-  },
-  {
-    title: "Soft Skills",
     skills: [
-      "Problem-solving",
-      "Communication",
-      "Team Collaboration",
-      "Analytical Thinking",
+      "Git",
+      "GitHub",
+      "GitLab CI",
+      "CI/CD Pipelines",
+      "Docker",
+      "Postman",
+      "Linux",
+      "Android Studio"
+    ],
+  },
+  {
+    title: "Testing & Quality",
+    skills: [
+      "Unit Testing",
+      "Integration Testing",
+      "Debugging in Production Systems"
     ],
   },
 ];
+
 
 export const SkillsSection = () => {
   const ref = useRef(null);

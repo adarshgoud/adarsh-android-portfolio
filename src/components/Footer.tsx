@@ -45,7 +45,7 @@ export const Footer = () => {
         <div className="border-t border-border mt-8 pt-8 text-center">
           <p className="text-sm text-muted-foreground flex items-center justify-center gap-1">
             © {currentYear} Adarsh. Built with{" "}
-            <Heart className="w-4 h-4 text-primary fill-primary" /> using React
+            <Heart className="w-4 h-4 text-primary fill-primary" /> using React and AI Tools
           </p>
         </div>
       </div>

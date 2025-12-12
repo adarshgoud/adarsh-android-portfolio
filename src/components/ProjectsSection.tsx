@@ -27,8 +27,8 @@ const projects = [
 
 const comingSoon = [
   {
-    title: "Vitals App (KMP)",
-    description: "Full-featured Medical app",
+    title: "Vitals App (KMP Platform)",
+    description: "Full-featured Medical app with cross-platform support",
   },
   {
     title: "Vechile Tracker",
