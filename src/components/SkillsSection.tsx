@@ -9,6 +9,8 @@ const skillCategories = [
       "Kotlin",
       "Python",
       "C#",
+      "Swift",
+      "Jetpack Compose",
       "XML"
     ],
   },
@@ -56,7 +58,9 @@ const skillCategories = [
       "WorkManager",
       "Navigation Component",
       "Firebase",
-      "Crashlytics"
+      "Kotlin Multiplatform",
+      "Crashlytics",
+      "Google Play Store publishing"
     ],
   },
   {
@@ -100,11 +104,21 @@ const skillCategories = [
     ],
   },
   {
+    title: "Other Tools",
+    skills: [
+      "Gradle",
+      "Firebase",
+      "REST APIs",
+      "JSON parsing"
+    ],
+  },
+  {
     title: "Testing & Quality",
     skills: [
       "Unit Testing",
       "Integration Testing",
-      "Debugging in Production Systems"
+      "Debugging in Production Systems",
+      "Test-Driven Development"
     ],
   },
 ];

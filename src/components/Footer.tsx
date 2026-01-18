@@ -1,4 +1,5 @@
 import { Github, Linkedin, Mail, Heart } from "lucide-react";
+import { VisitorCounter } from "./VisitorCounter";
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -43,6 +44,7 @@ export const Footer = () => {
         </div>
 
         <div className="border-t border-border mt-8 pt-8 text-center">
+          <VisitorCounter />
           <p className="text-sm text-muted-foreground flex items-center justify-center gap-1">
             © {currentYear} Adarsh. Built with{" "}
             <Heart className="w-4 h-4 text-primary fill-primary" /> using React and AI Tools
