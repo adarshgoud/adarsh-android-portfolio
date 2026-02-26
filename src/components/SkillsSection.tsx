@@ -104,12 +104,16 @@ const skillCategories = [
     ],
   },
   {
-    title: "Other Tools",
+    title: "AI / Machine Learning for Mobile",
     skills: [
-      "Gradle",
-      "Firebase",
-      "REST APIs",
-      "JSON parsing"
+      "TensorFlow Lite",
+      "ML Kit",
+      "PyTorch Mobile",
+      "On-device Inference",
+      "Model Optimization (Quantization - Basic)",
+      "Image Classification & Object Detection",
+      "Model Conversion (ONNX)",
+      "Data Preprocessing"
     ],
   },
   {
